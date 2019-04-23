@@ -1,3 +1,8 @@
+/*
+  Find the odd int
+  https://www.codewars.com/kata/find-the-odd-int/typescript
+*/
+
 export const findOdd = (xs: number[]): number => {
   const obj = xs.reduce((acc, num) => {
     acc[num.toString()] = (acc[num.toString()] || 0) + 1;

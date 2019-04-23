@@ -1,4 +1,9 @@
-// A <-> T | C <-> G
+/*
+  Complementary DNA
+  (A <-> T | C <-> G)
+  https://www.codewars.com/kata/554e4a2f232cdd87d9000038
+*/
+
 export class DNA {
   static complementation(char) {
     switch (char) {

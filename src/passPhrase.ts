@@ -1,3 +1,8 @@
+/*
+  Playing with passphrases
+  https://www.codewars.com/kata/559536379512a64472000053
+*/
+
 export class G964 {
   public static playPass(s: string, n: number): string {
     const charArr: string[] = Array.from(s);
