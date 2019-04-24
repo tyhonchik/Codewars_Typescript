@@ -5,5 +5,7 @@ import { ExesOhs } from "./exesOhs";
 import { ValidBraces } from "./validBraces";
 import { findOdd } from "./findOdd";
 import { ProductFib } from "./productFib";
+import { TortoiseRacing } from "./tortoiseRacing";
 
-console.log(ProductFib.productFib(5895));
+TortoiseRacing.race(820, 850, 550);
+TortoiseRacing.race(80, 91, 37);
