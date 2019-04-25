@@ -6,6 +6,6 @@ import { ValidBraces } from "./validBraces";
 import { findOdd } from "./findOdd";
 import { ProductFib } from "./productFib";
 import { TortoiseRacing } from "./tortoiseRacing";
+import { TankTruck } from "./tankTruck";
 
-TortoiseRacing.race(820, 850, 550);
-TortoiseRacing.race(80, 91, 37);
+TankTruck.tankvol(40, 120, 3500);
